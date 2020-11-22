@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: relative;
+}
+
+.container .carousel-inner .carousel-item{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+}
+
+.container .carousel-inner .carousel-item .content{
+    position: absolute;
+    top: 540px;
+    left: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 5;
+}
+
+.navbar-brand{
+    margin-left: 60px;
+}
