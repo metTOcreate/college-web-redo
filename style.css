@@ -1,0 +1,22 @@
+.card-container{
+    position: relative;
+    height: 193px;
+    width : 18rem;
+    perspective: 200rem;
+}
+.card-container:hover .card-front{
+    transform: rotateY(180deg);
+}
+.card-container:hover .card-back{
+    transform: rotateY(0deg);
+}
+.card-back{
+    transform: rotateY(180deg);
+}
+.corn{
+    position: absolute;
+    transition: all 0.9s;
+    height: 193px;
+    width: 100%;
+    backface-visibility: hidden;
+}
