@@ -1,7 +1,7 @@
 .card-container{
     position: relative;
     height: 193px;
-    width : 18rem;
+    /* width : 18rem; */
     perspective: 200rem;
 }
 .card-container:hover .card-front{
@@ -39,16 +39,16 @@
     font-size: 20px;
     color:black;
 }
-.offer .card-front1{
+ .card-front1{
     background-color: cyan;
 }
-.offer .card-front2{
+ .card-front2{
     background-color: burlywood;
 }
-.offer .card-front3{
+.card-front3{
     background-color: goldenrod;
 }
-.offer .card-front4{
+.card-front4{
     background-color: pink;
 }
 
