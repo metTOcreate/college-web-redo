@@ -20,17 +20,6 @@
     width: 100%;
     backface-visibility: hidden;
 }
-.ourexpert{
-    display: flex;
-    align-items: center;
-}
-.ourexpert img{
-    max-width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    float: right;
-    margin: 5px;
-}
 .offer h4{
     margin: 30px;
     padding: 30px;
@@ -51,10 +40,140 @@
 .card-front4{
     background-color: pink;
 }
+/* campuslifesection */
+.campuslife{
+    position: relative;;
+    width: 384px;
+    height: 547px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 3px solid #EF8D45;
+    box-sizing: border-box;
+    box-shadow: -28px 28px 56px rgba(147, 147, 147, 0.2), 28px -28px 56px rgba(147, 147, 147, 0.2), -28px -28px 56px rgba(255, 255, 255, 0.9), 28px 28px 70px rgba(147, 147, 147, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(147, 147, 147, 0.5);
+    border-radius: 200px;
+}
 
-/* .fb:hover{
+/* experts section */
+.texwrap{
+    margin-bottom: 140px;
+}
+.experts{
     position: relative;
-    bottom: 5px;
-    transition:0.9s;
-    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ourexpert{
+    position: relative;
+    margin: 20px;
+    width: 340px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 3px solid #EF8D45;
+    box-sizing: border-box;
+    box-shadow: -5px 5px 10px rgba(158, 158, 158, 0.2), 5px -5px 10px rgba(158, 158, 158, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(158, 158, 158, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(158, 158, 158, 0.5);
+}
+.cdbody p{
+    position: absolute;
+    left: 2.97%;
+    right: 2.97%;
+    top: 58.32%;
+    bottom: 6.7%;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 26px;
+    color: #000000;    
+}
+.cdbody h5{
+    position: absolute;
+    left: 29.41%;
+    top: 39.92%;
+    bottom: 49.92%;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 26px;
+    color: #000000;    
+}
+.cdbody img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    bottom: 250px;
+    left: 45px;
+}
+.cdbody span{
+    position: absolute;
+    top: 60%;
+    right: 0;
+}
+
+
+/* student reviews */
+.allumini{
+    /*justify-content: space-around; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+}
+.reviews{
+    position: relative;
+    margin: 20px;
+    width: 320px;
+    height: 547px;
+    background: linear-gradient(135deg, #F2F2F2 0%, #FFFFFF 100%);
+    border: 3px solid #EF8D45;
+    box-sizing: border-box;
+    box-shadow: 9px 9px 18px rgba(162, 162, 162, 0.2), -9px -9px 18px rgba(162, 162, 162, 0.2), 9px -9px 18px rgba(255, 255, 255, 0.9), -9px 9px 23px rgba(162, 162, 162, 0.9), inset -1px 1px 2px rgba(255, 255, 255, 0.3), inset 1px -1px 2px rgba(162, 162, 162, 0.5);
+}
+.reviews img{
+    position:absolute;
+    width: 175px;
+    min-height: 175px;
+    border-radius: 50%;
+    left: 120px;
+    bottom: 35px;
+}
+.reviews .text-name p{
+    position: absolute;
+    left: 5.31%;
+    right: 3.12%;
+    top: 5.15%;
+    bottom: 62.67%;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 26px;
+    color: #000000;
+}
+.reviews .name{
+    position: absolute;
+    left: 5.31%;
+    right: 49.93%;
+    top: 68.56%;
+    bottom: 18.59%;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 26px;
+    color: #000000;
+}
+/* .allumini .paddle{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 5rem;
+}
+.allumini .paddle .left-paddle{
+    left: 0;
+}
+.allumini .paddle .right-paddle{
+    right: 0;
 } */
